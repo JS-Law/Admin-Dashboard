@@ -1,0 +1,22 @@
+// FONTS
+@font-face {
+    font-family: 'EBGaramond';
+    src: url(../assets/fonts/EB_Garamond/EBGaramond-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'Manrope';
+    src: url(../assets/fonts/Manrope/Manrope-VariableFont_wght.ttf);
+}
+
+$default-font: 'EBGaramond';
+$secondary-font: 'Manrope';
+
+// COLOR PALETTE
+$gray-nickel: #BFBFBE;
+$storm-dust: #616260;
+$nevada: #6B6F74;
+$fedora: #746C74;
+
+
+// MOBILE FIRST
+
