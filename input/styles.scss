@@ -1,14 +1,15 @@
 // FONTS
 @font-face {
-    font-family: 'EBGaramond';
+    font-family: 'EB_Garamond';
     src: url(../assets/fonts/EB_Garamond/EBGaramond-VariableFont_wght.ttf);
 }
+
 @font-face {
     font-family: 'Manrope';
     src: url(../assets/fonts/Manrope/Manrope-VariableFont_wght.ttf);
 }
 
-$default-font: 'EBGaramond';
+$default-font: 'EB_Garamond';
 $secondary-font: 'Manrope';
 
 // COLOR PALETTE
@@ -17,9 +18,115 @@ $storm-dust: #616260;
 $nevada: #6B6F74;
 $fedora: #746C74;
 
-
 // MOBILE FIRST
 body{
+    background-image: url(../assets/images/praveen-kumar-mathivanan-j7qJLn4Chzs-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
     box-sizing: border-box;
     margin: 0;
+    font-family: $default-font;
 }
+
+#main-grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    font-family: $secondary-font;
+    gap: 1rem;
+    #nav-bar{
+        padding-block-start: 1rem;
+        padding-block-end: 1rem;
+        padding-inline-start: 2.2rem;
+        padding-inline-end: 1.85rem;
+        display: flex;
+        justify-content: space-between;
+        grid-column: 1 / 13;
+        grid-row: 1 / 1;
+        background: rgba( 191, 191, 190, 0.5 );
+        box-shadow: 0 8px 32px 0 #746C74;
+        backdrop-filter: blur( 5.5px );
+        -webkit-backdrop-filter: blur( 5.5px );
+        // border-radius: 10px;
+        #title-container{
+            display: flex;
+            align-items: center;
+            #desktop-title{
+                font-size: 4rem;
+                display: inline;
+                margin: 0;
+                color: $storm-dust;
+            }   
+            input#desktop-search{
+                height: 2rem;
+                display: inline;
+                padding-inline-start: .5rem;
+                margin-inline-start: 2rem;
+                border-radius: .7rem;
+                border: none;
+                text-align: center;
+                // margin-block-end: 1rem;
+            }
+        }
+        #account-container{
+            padding-block-start: .7rem;
+            img{
+                height: 4rem;
+                color: $storm-dust;
+            }
+        }
+        #mobile-title{
+            display: none;
+        }
+        #mobile-search{
+            display: none;
+        }
+        #desktop-avatar{
+
+        }
+        #mobile-avatar{
+
+        }
+
+        #hamburger-menu{
+
+            #dropdown{
+                margin: 0;
+                list-style: none;
+            }
+        }
+    }
+    #chart-1{
+        grid-column: 1 / 5;
+        grid-row: 2 / 4;
+        padding: 2rem;
+        margin-inline-start: 1rem;
+        border-radius: .7rem;
+        background: rgba( 191, 191, 190, 0.5 );
+        box-shadow: 0 8px 32px 0 #746C74;
+        backdrop-filter: blur( 5.5px );
+        -webkit-backdrop-filter: blur( 5.5px );
+    }
+    #chart-2{
+        grid-column: 5 / 9;
+        grid-row: 2/ 4;
+        padding: 2rem;
+        border-radius: .7rem;
+        background: rgba( 191, 191, 190, 0.5 );
+        box-shadow: 0 8px 32px 0 #746C74;
+        backdrop-filter: blur( 5.5px );
+        -webkit-backdrop-filter: blur( 5.5px );
+    }
+    #chart-3{
+        grid-column: 9 / 13;
+        grid-row: 2 / 4;
+        padding: 2rem;
+        border-radius: .7rem;
+        margin-inline-end: 1rem;
+        background: rgba( 191, 191, 190, 0.5 );
+        box-shadow: 0 8px 32px 0 #746C74;
+        backdrop-filter: blur( 5.5px );
+        -webkit-backdrop-filter: blur( 5.5px );
+    }
+}
+
