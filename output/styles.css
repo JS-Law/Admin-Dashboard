@@ -7,7 +7,7 @@
   src: url(../assets/fonts/Manrope/Manrope-VariableFont_wght.ttf);
 }
 body {
-  background-image: url(../assets/images/praveen-kumar-mathivanan-j7qJLn4Chzs-unsplash.jpg);
+  background: #e8dacb;
   background-position: center;
   background-size: cover;
   box-sizing: border-box;
@@ -29,10 +29,7 @@ body {
   justify-content: space-between;
   grid-column: 1/13;
   grid-row: 1/1;
-  background: rgba(191, 191, 190, 0.5);
-  box-shadow: 0 8px 32px 0 #746C74;
-  backdrop-filter: blur(5.5px);
-  -webkit-backdrop-filter: blur(5.5px);
+  background-color: #aba784;
 }
 #main-grid #nav-bar #title-container {
   display: flex;
@@ -42,7 +39,7 @@ body {
   font-size: 2rem;
   display: inline;
   margin: 0;
-  color: #616260;
+  color: #7e3730;
 }
 #main-grid #nav-bar #title-container input#desktop-search {
   height: 2rem;
@@ -76,30 +73,21 @@ body {
   padding: 2rem;
   margin-inline-start: 1rem;
   border-radius: 0.7rem;
-  background: rgba(191, 191, 190, 0.5);
-  box-shadow: 0 8px 32px 0 #746C74;
-  backdrop-filter: blur(5.5px);
-  -webkit-backdrop-filter: blur(5.5px);
+  background-color: #cb997e;
 }
 #main-grid #chart-2 {
   grid-column: 4/7;
   grid-row: 2/3;
   padding: 2rem;
   border-radius: 0.7rem;
-  background: rgba(191, 191, 190, 0.5);
-  box-shadow: 0 8px 32px 0 #746C74;
-  backdrop-filter: blur(5.5px);
-  -webkit-backdrop-filter: blur(5.5px);
+  background-color: #ddbea9;
 }
 #main-grid #chart-3 {
   grid-column: 7/10;
   grid-row: 2/3;
   padding: 2rem;
   border-radius: 0.7rem;
-  background: rgba(191, 191, 190, 0.5);
-  box-shadow: 0 8px 32px 0 #746C74;
-  backdrop-filter: blur(5.5px);
-  -webkit-backdrop-filter: blur(5.5px);
+  background-color: #e9d5bc;
 }
 #main-grid #chart-4 {
   grid-column: 10/13;
@@ -107,38 +95,29 @@ body {
   padding: 2rem;
   border-radius: 0.7rem;
   margin-inline-end: 1rem;
-  background: rgba(191, 191, 190, 0.5);
-  box-shadow: 0 8px 32px 0 #746C74;
-  backdrop-filter: blur(5.5px);
-  -webkit-backdrop-filter: blur(5.5px);
+  background-color: #f4e6d4;
 }
 #main-grid #chart-5 {
   grid-column: 1/13;
-  grid-row: 5/6;
+  grid-row: 6/7;
   padding: 0.5rem;
   border-radius: 0.7rem;
   margin-inline-end: 1rem;
   margin-inline-start: 1rem;
-  background: rgba(191, 191, 190, 0.5);
-  box-shadow: 0 8px 32px 0 #746C74;
-  backdrop-filter: blur(5.5px);
-  -webkit-backdrop-filter: blur(5.5px);
+  background-color: #f4e6d4;
 }
 #main-grid #lower-workspace-grid {
   margin: 0;
   grid-column: 1/13;
-  grid-row: 3/5;
+  grid-row: 3/6;
   display: grid;
   grid-template-columns: 20px repeat(26, 1fr);
   grid-template-rows: repeat(26, 1fr);
-  padding: 0.5rem;
+  padding: 1rem;
   border-radius: 0.7rem;
   margin-inline-end: 1rem;
   margin-inline-start: 1rem;
-  background: rgba(191, 191, 190, 0.5);
-  box-shadow: 0 8px 32px 0 #746C74;
-  backdrop-filter: blur(5.5px);
-  -webkit-backdrop-filter: blur(5.5px);
+  background-color: #aba784;
 }
 #main-grid #lower-workspace-grid #lower-grid-cell-1 {
   grid-column: 2/23;
@@ -154,6 +133,68 @@ body {
   grid-row: 3/27;
   border-right: 2px solid #746C74;
   margin-right: -2px;
+}
+#main-grid #lower-workspace-grid #lower-grid-cell-2-1 {
+  grid-column: 1;
+  grid-row: 8;
+  font-size: 0.7rem;
+  margin-inline-start: -9px;
+}
+#main-grid #lower-workspace-grid #lower-grid-cell-2-2 {
+  grid-column: 1;
+  grid-row: 14;
+  font-size: 0.7rem;
+  margin-inline-start: -9px;
+}
+#main-grid #lower-workspace-grid #lower-grid-cell-2-3 {
+  grid-column: 1;
+  grid-row: 20;
+  font-size: 0.7rem;
+  margin-inline-start: -9px;
+}
+#main-grid #lower-workspace-grid #lower-grid-cell-2-4 {
+  grid-column: 2/5;
+  grid-row: 8/13;
+  background-color: rgba(4, 0, 249, 0.997);
+  border-radius: 0.3rem;
+  margin-inline-start: 3px;
+  margin-inline-end: 3px;
+  margin-block-end: 3px;
+  margin-block-start: 1px;
+}
+#main-grid #lower-workspace-grid #lower-grid-cell-2-5 {
+  grid-column: 2/5;
+  grid-row: 13/16;
+  background-color: rgba(27, 169, 46, 0.997);
+  border-radius: 0.3rem;
+  margin-inline-start: 3px;
+  margin-inline-end: 3px;
+  margin-block-end: 3px;
+  margin-block-start: 1px;
+}
+#main-grid #lower-workspace-grid #lower-grid-cell-2-6 {
+  font-size: 0.5rem;
+  text-align: center;
+  font-weight: 800;
+  color: black;
+  grid-column: 2/5;
+  grid-row: 16;
+  background-color: rgba(30, 97, 108, 0.997);
+  border-radius: 0.3rem;
+  margin-inline-start: 3px;
+  margin-inline-end: 3px;
+  margin-block-end: 3px;
+  margin-block-start: 1px;
+}
+#main-grid #lower-workspace-grid #lower-grid-cell-2-7 {
+  grid-column: 2/5;
+  grid-row: 17/19;
+  background-color: rgba(4, 0, 249, 0.997);
+  border-radius: 0.3rem;
+  margin-inline-start: 3px;
+  margin-inline-end: 3px;
+  margin-block-end: 3px;
+  margin-block-start: 1px;
 }
 #main-grid #lower-workspace-grid #hour-block-1 {
   grid-column: 2/23;
@@ -192,7 +233,7 @@ body {
 }
 #main-grid #lower-workspace-grid #hour-block-8 {
   grid-column: 2/23;
-  border-bottom: 2px solid #746C74;
+  border-bottom: 4px solid red;
   grid-row: 10;
 }
 #main-grid #lower-workspace-grid #hour-block-9 {
@@ -288,7 +329,7 @@ body {
   border-right: solid 2px #746C74;
   border-bottom: solid 2px #746C74;
   margin-inline-start: 2px;
-  background: rgba(255, 255, 255, 0.5);
+  background-color: rgba(244, 230, 212, 0.6235294118);
 }
 #main-grid #lower-workspace-grid #lower-grid-cell-5 {
   grid-column: 5/8;
@@ -301,7 +342,7 @@ body {
   grid-row: 3/27;
   border-right: solid 2px #746C74;
   border-bottom: solid 2px #746C74;
-  background: rgba(255, 255, 255, 0.5);
+  background-color: rgba(244, 230, 212, 0.6235294118);
 }
 #main-grid #lower-workspace-grid #lower-grid-cell-7 {
   grid-column: 8/11;
@@ -314,7 +355,7 @@ body {
   grid-row: 3/27;
   border-right: solid 2px #746C74;
   border-bottom: solid 2px #746C74;
-  background: rgba(255, 255, 255, 0.5);
+  background-color: rgba(244, 230, 212, 0.6235294118);
 }
 #main-grid #lower-workspace-grid #lower-grid-cell-9 {
   grid-column: 11/14;
@@ -327,7 +368,7 @@ body {
   grid-row: 3/27;
   border-right: solid 2px #746C74;
   border-bottom: solid 2px #746C74;
-  background: rgba(255, 255, 255, 0.5);
+  background-color: rgba(244, 230, 212, 0.6235294118);
 }
 #main-grid #lower-workspace-grid #lower-grid-cell-11 {
   grid-column: 14/17;
@@ -340,7 +381,7 @@ body {
   grid-row: 3/27;
   border-right: solid 2px #746C74;
   border-bottom: solid 2px #746C74;
-  background: rgba(255, 255, 255, 0.5);
+  background-color: rgba(244, 230, 212, 0.6235294118);
 }
 #main-grid #lower-workspace-grid #lower-grid-cell-13 {
   grid-column: 17/20;
@@ -353,7 +394,7 @@ body {
   grid-row: 3/27;
   border-right: solid 2px #746C74;
   border-bottom: solid 2px #746C74;
-  background: rgba(255, 255, 255, 0.5);
+  background-color: rgba(244, 230, 212, 0.6235294118);
 }
 #main-grid #lower-workspace-grid #lower-grid-cell-15 {
   grid-column: 20/23;
@@ -364,7 +405,7 @@ body {
   grid-column: 20/23;
   grid-row: 3/27;
   border-bottom: solid 2px #746C74;
-  background: rgba(255, 255, 255, 0.5);
+  background-color: rgba(244, 230, 212, 0.6235294118);
 }
 #main-grid #lower-workspace-grid #lower-grid-cell-17 {
   grid-column: 23/28;
@@ -381,5 +422,5 @@ body {
   border-right: solid 2px #746C74;
   border-bottom: solid 2px #746C74;
   padding-left: 0.5rem;
-  background: rgba(255, 255, 255, 0.5);
+  background-color: rgba(244, 230, 212, 0.6235294118);
 }/*# sourceMappingURL=styles.css.map */

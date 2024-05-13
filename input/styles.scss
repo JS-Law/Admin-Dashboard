@@ -18,9 +18,23 @@ $storm-dust: #616260;
 $nevada: #6B6F74;
 $fedora: #746C74;
 
+// NEW PALETTE
+
+$burnt-sienna: #d57b4e;
+$garnet: #7e3730;
+$sage: #aba784;
+$ebony: #636b54;
+$almond: #e8dacb;
+$buff: #cb997e;
+$desert-sand: #ddbea9;
+$vanilla: #e5d2b8;
+$dun: #e9d5bc;
+$antique-white-seethrough: #f4e6d49f;
+$antique-white: #f4e6d4;
 // MOBILE FIRST
 body{
-    background-image: url(../assets/images/praveen-kumar-mathivanan-j7qJLn4Chzs-unsplash.jpg);
+    // background-image: url(../assets/images/praveen-kumar-mathivanan-j7qJLn4Chzs-unsplash.jpg);
+    background: $almond;
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
@@ -43,11 +57,13 @@ body{
         justify-content: space-between;
         grid-column: 1 / 13;
         grid-row: 1 / 1;
-        background: rgba( 191, 191, 190, 0.5 );
-        box-shadow: 0 8px 32px 0 #746C74;
-        backdrop-filter: blur( 5.5px );
-        -webkit-backdrop-filter: blur( 5.5px );
-        // border-radius: 10px;
+        background-color: $sage;
+        
+        // background: rgba( 191, 191, 190, 0.5 );
+        // box-shadow: 0 8px 32px 0 #746C74;
+        // backdrop-filter: blur( 5.5px );
+        // -webkit-backdrop-filter: blur( 5.5px );
+
         #title-container{
             display: flex;
             align-items: center;
@@ -55,7 +71,7 @@ body{
                 font-size: 2rem;
                 display: inline;
                 margin: 0;
-                color: $storm-dust;
+                color: $garnet;
             }   
             input#desktop-search{
                 height: 2rem;
@@ -102,30 +118,33 @@ body{
         padding: 2rem;
         margin-inline-start: 1rem;
         border-radius: .7rem;
-        background: rgba( 191, 191, 190, 0.5 );
-        box-shadow: 0 8px 32px 0 #746C74;
-        backdrop-filter: blur( 5.5px );
-        -webkit-backdrop-filter: blur( 5.5px );
+        background-color: $buff;
+        // background: rgba( 191, 191, 190, 0.5 );
+        // box-shadow: 0 8px 32px 0 #746C74;
+        // backdrop-filter: blur( 5.5px );
+        // -webkit-backdrop-filter: blur( 5.5px );
     }
     #chart-2{
         grid-column: 4 / 7;
         grid-row: 2/ 3;
         padding: 2rem;
         border-radius: .7rem;
-        background: rgba( 191, 191, 190, 0.5 );
-        box-shadow: 0 8px 32px 0 #746C74;
-        backdrop-filter: blur( 5.5px );
-        -webkit-backdrop-filter: blur( 5.5px );
+        background-color: $desert-sand;
+        // background: rgba( 191, 191, 190, 0.5 );
+        // box-shadow: 0 8px 32px 0 #746C74;
+        // backdrop-filter: blur( 5.5px );
+        // -webkit-backdrop-filter: blur( 5.5px );
     }
     #chart-3{
         grid-column: 7 / 10;
         grid-row: 2 / 3;
         padding: 2rem;
         border-radius: .7rem;
-        background: rgba( 191, 191, 190, 0.5 );
-        box-shadow: 0 8px 32px 0 #746C74;
-        backdrop-filter: blur( 5.5px );
-        -webkit-backdrop-filter: blur( 5.5px );
+        background-color: $dun;
+        // background: rgba( 191, 191, 190, 0.5 );
+        // box-shadow: 0 8px 32px 0 #746C74;
+        // backdrop-filter: blur( 5.5px );
+        // -webkit-backdrop-filter: blur( 5.5px );
     }
     #chart-4{
         grid-column: 10 /13;
@@ -133,38 +152,41 @@ body{
         padding: 2rem;
         border-radius: .7rem;
         margin-inline-end: 1rem;
-        background: rgba( 191, 191, 190, 0.5 );
-        box-shadow: 0 8px 32px 0 #746C74;
-        backdrop-filter: blur( 5.5px );
-        -webkit-backdrop-filter: blur( 5.5px );
+        background-color: $antique-white;
+        // background: rgba( 191, 191, 190, 0.5 );
+        // box-shadow: 0 8px 32px 0 #746C74;
+        // backdrop-filter: blur( 5.5px );
+        // -webkit-backdrop-filter: blur( 5.5px );
     }
     #chart-5{
         grid-column: 1 / 13;
-        grid-row: 5 / 6;
+        grid-row: 6 / 7;
         padding: .5rem;
         border-radius: .7rem;
         margin-inline-end: 1rem;
         margin-inline-start: 1rem;
-        background: rgba( 191, 191, 190, 0.5 );
-        box-shadow: 0 8px 32px 0 #746C74;
-        backdrop-filter: blur( 5.5px );
-        -webkit-backdrop-filter: blur( 5.5px );
+        background-color: $antique-white;
+        // background: rgba( 191, 191, 190, 0.5 );
+        // box-shadow: 0 8px 32px 0 #746C74;
+        // backdrop-filter: blur( 5.5px );
+        // -webkit-backdrop-filter: blur( 5.5px );
     }
     #lower-workspace-grid{
         margin: 0;
         grid-column: 1 / 13;
-        grid-row: 3 /5;
+        grid-row: 3 / 6;
         display: grid;
         grid-template-columns:  20px repeat(26, 1fr);
         grid-template-rows:  repeat(26, 1fr);
-        padding: .5rem;
+        padding: 1rem;
         border-radius: .7rem;
         margin-inline-end: 1rem;
         margin-inline-start: 1rem;
-        background: rgba( 191, 191, 190, 0.5 );
-        box-shadow: 0 8px 32px 0 #746C74;
-        backdrop-filter: blur( 5.5px );
-        -webkit-backdrop-filter: blur( 5.5px );
+        background-color: $sage;
+        // background: rgba( 191, 191, 190, 0.5 );
+        // box-shadow: 0 8px 32px 0 #746C74;
+        // backdrop-filter: blur( 5.5px );
+        // -webkit-backdrop-filter: blur( 5.5px );
         #lower-grid-cell-1{
             grid-column: 2 / 23;
             grid-row: 1 / 1;
@@ -182,22 +204,71 @@ body{
             margin-right: -2px;
         }
         #lower-grid-cell-2-1{
-            
+            grid-column: 1;
+            grid-row: 8;
+            font-size: .7rem;
+            margin-inline-start: -9px;
         }
         #lower-grid-cell-2-2{
-
+            grid-column: 1;
+            grid-row: 14;
+            font-size: .7rem;
+            margin-inline-start: -9px;
         }
         #lower-grid-cell-2-3{
-
+            grid-column: 1;
+            grid-row: 20;
+            font-size: .7rem;
+            margin-inline-start: -9px;
         }
         #lower-grid-cell-2-4{
-
+            grid-column: 2 / 5;
+            grid-row: 8 / 13;
+            background-color: rgba(4, 0, 249, 0.997);
+            border-radius: .3rem;
+            margin-inline-start: 3px;
+            margin-inline-end: 3px;
+            margin-block-end: 3px;
+            margin-block-start: 1px;
+            
         }
         #lower-grid-cell-2-5{
-
+            grid-column: 2 / 5;
+            grid-row: 13 / 16;
+            background-color: rgba(27, 169, 46, 0.997);
+            border-radius: .3rem;
+            margin-inline-start: 3px;
+            margin-inline-end: 3px;
+            margin-block-end: 3px;
+            margin-block-start: 1px;
+            
         }
         #lower-grid-cell-2-6{
-
+            font-size: .5rem;
+            text-align: center;
+            font-weight: 800;
+            color: black;
+            grid-column: 2 / 5;
+            grid-row: 16;
+            background-color: rgba(30, 97, 108, 0.997);
+            border-radius: .3rem;
+            margin-inline-start: 3px;
+            margin-inline-end: 3px;
+            margin-block-end: 3px;
+            margin-block-start: 1px;
+            
+        }
+        #lower-grid-cell-2-7{
+            grid-column: 2 / 5;
+            grid-row: 17 / 19;
+            background-color: rgba(4, 0, 249, 0.997);
+            border-radius: .3rem;
+            margin-inline-start: 3px;
+            margin-inline-end: 3px;
+            margin-block-end: 3px;
+            margin-block-start: 1px;
+            
+            
         }
 
         // HOUR BLOCKS
@@ -238,7 +309,7 @@ body{
         }
         #hour-block-8{
             grid-column: 2 / 23;
-            border-bottom: 2px solid $fedora;
+            border-bottom: 4px solid red;
             grid-row: 10;
         }
         #hour-block-9{
@@ -336,7 +407,7 @@ body{
             border-right: solid 2px $fedora;
             border-bottom: solid 2px $fedora;
             margin-inline-start: 2px;            
-            background: rgba(255, 255, 255, 0.5);
+            background-color: $antique-white-seethrough;
         }
         // MONDAY
         #lower-grid-cell-5{
@@ -350,7 +421,7 @@ body{
             grid-row: 3 / 27;
             border-right: solid 2px $fedora;            
             border-bottom: solid 2px $fedora;            
-            background: rgba(255, 255, 255, 0.5);
+            background-color: $antique-white-seethrough;
         }
         // TUESDAY
         #lower-grid-cell-7{
@@ -364,7 +435,7 @@ body{
             grid-row: 3 / 27;
             border-right: solid 2px $fedora;            
             border-bottom: solid 2px $fedora;            
-            background: rgba(255, 255, 255, 0.5);
+            background-color: $antique-white-seethrough;
         }
         // WEDNESDAY
         #lower-grid-cell-9{
@@ -378,7 +449,7 @@ body{
             grid-row: 3 / 27;
             border-right: solid 2px $fedora;            
             border-bottom: solid 2px $fedora;            
-            background: rgba(255, 255, 255, 0.5);
+            background-color: $antique-white-seethrough;
         }
         
         // THURSDAY
@@ -393,7 +464,7 @@ body{
             grid-row: 3 / 27;
             border-right: solid 2px $fedora;            
             border-bottom: solid 2px $fedora;            
-            background: rgba(255, 255, 255, 0.5);
+            background-color: $antique-white-seethrough;
         }
         
         // FRIDAY
@@ -408,7 +479,7 @@ body{
             grid-row: 3 / 27;
             border-right: solid 2px $fedora;            
             border-bottom: solid 2px $fedora;            
-            background: rgba(255, 255, 255, 0.5);
+            background-color: $antique-white-seethrough;
         }
         
         // SATURDAY
@@ -423,7 +494,7 @@ body{
             grid-row: 3 / 27;
             border-bottom: solid 2px $fedora;            
             // border-right: solid 2px $fedora;            
-            background: rgba(255, 255, 255, 0.5);
+            background-color: $antique-white-seethrough;
         }
         #lower-grid-cell-17{
             grid-column: 23 / 28;
@@ -440,7 +511,7 @@ body{
             border-right: solid 2px $fedora;            
             border-bottom: solid 2px $fedora;            
             padding-left: .5rem;
-            background: rgba(255, 255, 255, 0.5);
+            background-color: $antique-white-seethrough;
         }
 
 
