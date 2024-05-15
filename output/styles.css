@@ -6,20 +6,23 @@
   font-family: "Manrope";
   src: url(../assets/fonts/Manrope/Manrope-VariableFont_wght.ttf);
 }
+@font-face {
+  font-family: "Jakarta";
+  src: url(../assets/fonts/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf);
+}
 body {
   background: #f4e6d4;
   background-position: center;
   background-size: cover;
   box-sizing: border-box;
   margin: 0;
-  font-family: "EB_Garamond";
 }
 
 #main-grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 50px repeat(14, 15%);
-  font-family: "Manrope";
+  font-family: "Jakarta";
   gap: 1rem;
 }
 #main-grid #nav-bar {
@@ -153,6 +156,7 @@ body {
 #main-grid #lower-workspace-grid #lower-grid-cell-2-4 {
   grid-column: 5/8;
   grid-row: 8/13;
+  text-align: center;
   background-color: #7e3730;
   border-radius: 0.3rem;
   margin-inline-start: 1px;
@@ -164,6 +168,7 @@ body {
   grid-column: 5/8;
   grid-row: 13/16;
   background-color: #cb997e;
+  text-align: center;
   border-radius: 0.3rem;
   margin-inline-start: 1px;
   margin-inline-end: 3px;
@@ -187,6 +192,7 @@ body {
 #main-grid #lower-workspace-grid #lower-grid-cell-2-7 {
   grid-column: 5/8;
   grid-row: 17/19;
+  text-align: center;
   background-color: #7e3730;
   border-radius: 0.3rem;
   margin-inline-start: 1px;
@@ -197,6 +203,7 @@ body {
 #main-grid #lower-workspace-grid #lower-grid-cell-2-8 {
   grid-column: 8/11;
   grid-row: 10/19;
+  text-align: center;
   background-color: #d57b4e;
   border-radius: 0.3rem;
   margin-inline-start: 1px;
@@ -207,6 +214,7 @@ body {
 #main-grid #lower-workspace-grid #lower-grid-cell-2-9 {
   grid-column: 11/14;
   grid-row: 10/15;
+  text-align: center;
   background-color: #7e3730;
   border-radius: 0.3rem;
   margin-inline-start: 1px;
@@ -217,6 +225,7 @@ body {
 #main-grid #lower-workspace-grid #lower-grid-cell-2-10 {
   grid-column: 14/17;
   grid-row: 8/14;
+  text-align: center;
   background-color: #7e3730;
   border-radius: 0.3rem;
   margin-inline-start: 1px;
@@ -227,6 +236,7 @@ body {
 #main-grid #lower-workspace-grid #lower-grid-cell-2-11 {
   grid-column: 14/17;
   grid-row: 14/16;
+  text-align: center;
   background-color: #7e3730;
   border-radius: 0.3rem;
   margin-inline-start: 1px;
