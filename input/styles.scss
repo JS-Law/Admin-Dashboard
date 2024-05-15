@@ -217,22 +217,22 @@ body{
             margin-inline-start: -9px;
         }
         #lower-grid-cell-2-4{
-            grid-column: 2 / 5;
+            grid-column: 5 / 8;
             grid-row: 8 / 13;
-            background-color: rgba(4, 0, 249, 0.997);
+            background-color: $garnet;
             border-radius: .3rem;
-            margin-inline-start: 3px;
+            margin-inline-start: 1px;
             margin-inline-end: 3px;
             margin-block-end: 3px;
             margin-block-start: 1px;
             
         }
         #lower-grid-cell-2-5{
-            grid-column: 2 / 5;
+            grid-column: 5 / 8;
             grid-row: 13 / 16;
-            background-color: rgba(27, 169, 46, 0.997);
+            background-color: $buff;
             border-radius: .3rem;
-            margin-inline-start: 3px;
+            margin-inline-start: 1px;
             margin-inline-end: 3px;
             margin-block-end: 3px;
             margin-block-start: 1px;
@@ -243,27 +243,80 @@ body{
             text-align: center;
             font-weight: 800;
             color: black;
-            grid-column: 2 / 5;
+            grid-column: 5 / 8;
             grid-row: 16;
-            background-color: rgba(30, 97, 108, 0.997);
+            background-color: $almond;
             border-radius: .3rem;
-            margin-inline-start: 3px;
+            margin-inline-start: 1px;
             margin-inline-end: 3px;
             margin-block-end: 3px;
             margin-block-start: 1px;
             
         }
         #lower-grid-cell-2-7{
-            grid-column: 2 / 5;
+            grid-column: 5 / 8;
             grid-row: 17 / 19;
-            background-color: rgba(4, 0, 249, 0.997);
+            background-color: $garnet;
             border-radius: .3rem;
-            margin-inline-start: 3px;
+            margin-inline-start: 1px;
+            margin-inline-end: 3px;
+            margin-block-end: 3px;
+            margin-block-start: 1px;
+        }
+        #lower-grid-cell-2-8{
+            grid-column: 8 / 11;
+            grid-row: 10 / 19;
+            background-color: $burnt-sienna;
+            border-radius: .3rem;
+            margin-inline-start: 1px;
             margin-inline-end: 3px;
             margin-block-end: 3px;
             margin-block-start: 1px;
             
+        }
+        #lower-grid-cell-2-9{
+            grid-column: 11 / 14;
+            grid-row: 10 / 15;
+            background-color: $garnet;
+            border-radius: .3rem;
+            margin-inline-start: 1px;
+            margin-inline-end: 3px;
+            margin-block-end: 3px;
+            margin-block-start: 1px;
             
+        }
+        #lower-grid-cell-2-10{
+            grid-column: 14 / 17;
+            grid-row: 8 / 14;
+            background-color: $garnet;
+            border-radius: .3rem;
+            margin-inline-start: 1px;
+            margin-inline-end: 3px;
+            margin-block-end: 3px;
+            margin-block-start: 1px;
+            
+        }
+        #lower-grid-cell-2-11{
+            grid-column: 14 / 17;
+            grid-row: 14 / 16;
+            background-color: $garnet;
+            border-radius: .3rem;
+            margin-inline-start: 1px;
+            margin-inline-end: 3px;
+            margin-block-end: 3px;
+            margin-block-start: 1px;
+            
+        }
+        #lower-grid-cell-2-12{
+            grid-column: 17 / 20;
+            grid-row: 10 / 19;
+            background-color: $garnet;
+            border-radius: .3rem;
+            margin-inline-start: 1px;
+            margin-inline-end: 3px;
+            margin-block-end: 3px;
+            margin-block-start: 1px;
+
         }
 
         // HOUR BLOCKS
