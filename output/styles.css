@@ -72,6 +72,7 @@ body {
 #main-grid #chart-1 {
   grid-column: 1/4;
   grid-row: 2/3;
+  width: clamp(170px, 25vw, 245px);
   margin-inline-start: 1rem;
   border-radius: 0.7rem;
   border: solid 2px #ffffff;
@@ -79,33 +80,36 @@ body {
   background-color: #ffffff;
 }
 #main-grid #chart-1 img#pie-chart {
-  width: 225px;
+  width: clamp(175px, 30vw, 225px);
 }
 #main-grid #chart-2 {
   grid-column: 4/7;
   grid-row: 2/3;
+  width: clamp(170px, 25vw, 245px);
   padding-block-start: 0.75rem;
   background-color: #ffffff;
   border-radius: 0.7rem;
   border: solid 2px #ffffff;
 }
 #main-grid #chart-2 img#pie-chart {
-  width: 225px;
+  width: clamp(175px, 30vw, 225px);
 }
 #main-grid #chart-3 {
   grid-column: 7/10;
   grid-row: 2/3;
+  width: clamp(170px, 25vw, 245px);
   padding-block-start: 0.75rem;
   background-color: #ffffff;
   border-radius: 0.7rem;
   border: solid 2px #ffffff;
 }
 #main-grid #chart-3 img#pie-chart {
-  width: 225px;
+  width: clamp(175px, 30vw, 225px);
 }
 #main-grid #chart-4 {
   grid-column: 10/13;
   grid-row: 2/3;
+  width: clamp(170px, 25vw, 245px);
   padding-block-start: 0.75rem;
   background-color: #ffffff;
   border-radius: 0.7rem;
@@ -113,7 +117,7 @@ body {
   border: solid 2px #ffffff;
 }
 #main-grid #chart-4 img#pie-chart {
-  width: 225px;
+  width: clamp(175px, 30vw, 225px);
 }
 #main-grid #chart-5 {
   grid-column: 1/13;
