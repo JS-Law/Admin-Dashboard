@@ -26,8 +26,8 @@ $venice-blue: #044B7F;
 $tarawera: #062C44;
 $off-white: #ffffff7c;
 $white: #ffffff;
-
 // MOBILE FIRST
+$see-through: #ffffff00;
 
 body{
     background-image: url(../assets/images/Backgrounds/apurv-das-4soXarjm9do-unsplash.jpg);
@@ -45,6 +45,7 @@ body{
     font-family: $new-font;
     gap: 1rem;
     color: $white;
+    grid-auto-flow: column;
     #nav-bar{
         padding-inline-start: 2.2rem;
         padding-inline-end: 1.85rem;
@@ -103,52 +104,52 @@ body{
     #chart-1{
         grid-column: 1 / 4;
         grid-row: 2 / 3;
-        width: clamp(170px, 25vw, 245px);
+        width: clamp(125px, 25vw, 235px);
         margin-inline-start: 1rem;
         border-radius: .7rem;
         border: solid 2px $white;
         padding-block-start: .75rem;
         background-color: $white;
         img#pie-chart{
-            width: clamp(175px, 30vw, 225px)
+            width: clamp(135px, 30vw, 225px)
         }
         // background-color: $desert-sand;
     }
     #chart-2{
         grid-column: 4 / 7;
         grid-row: 2 / 3;
-        width: clamp(170px, 25vw, 245px);
+        width: clamp(125px, 25vw, 235px);
         padding-block-start: .75rem;
         background-color: $white;
         border-radius: .7rem;
         border: solid 2px $white;
         img#pie-chart{
-            width: clamp(175px, 30vw, 225px)
+            width: clamp(135px, 30vw, 225px)
         }
     }
     #chart-3{
         grid-column: 7 / 10;
         grid-row: 2 / 3;
-        width: clamp(170px, 25vw, 245px);
+        width: clamp(125px, 25vw, 235px);
         padding-block-start: .75rem;
         background-color: $white;
         border-radius: .7rem;
         border: solid 2px $white;
         img#pie-chart{
-            width: clamp(175px, 30vw, 225px)
+            width: clamp(135px, 30vw, 225px)
         }
     }
     #chart-4{
         grid-column: 10 /13;
         grid-row: 2 / 3;
-        width: clamp(170px, 25vw, 245px);
+        width: clamp(125px, 25vw, 235px);
         padding-block-start: .75rem;
         background-color: $white;
         border-radius: .7rem;
         margin-inline-end: 1rem;
         border: solid 2px $white;
         img#pie-chart{
-            width: clamp(175px, 30vw, 225px)
+            width: clamp(135px, 30vw, 225px)
         }
     }
     #chart-5{
@@ -173,17 +174,19 @@ body{
         border: 2px solid $white;
         margin-inline-end: 1rem;
         margin-inline-start: 1rem;
+        position: relative;
         #lower-grid-cell-1{
             grid-column: 2 / 23;
             grid-row: 1 / 1;
             border-bottom: 2px solid $white;
             border-top: 2px solid $white;
             border-left: 2px solid $white;
+            background-color: $off-white;
             border-top-left-radius: .3rem;
             margin: 0;
-            
         }
         #lower-grid-cell-2{
+            background-color: $off-white;
             grid-column: 1;
             grid-row: 3 / 27;
         }
