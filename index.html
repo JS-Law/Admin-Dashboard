@@ -39,31 +39,40 @@
                     </ul>
                 </div> -->
             </nav>
-
-            <!-- WORKSPACE OPTIONS -->
-            <div id="left-toolbar">
-                
-            </div>  
             
             <!-- GRID TO CONTAIN: GRAPH, PIE CHART, DAILY TO DO, RECENT PROJECTS -->
-            <div id="chart-1">
-                <div id="content">
-                    <img src="./assets/images/pie-chart.png" alt="" class="charts" id="pie-chart">
+            <div id="chart-container">
+                <div id="chart-1">
+                    <div id="content">
+                        <img src="./assets/images/pie-chart.png" alt="" class="charts" id="pie-chart">
+                    </div>
                 </div>
-            </div>
-            <div id="chart-2">
-                <div id="content">
-                    <img src="./assets/images/pie-chart.png" alt="" class="charts" id="pie-chart">
+                <div id="chart-2">
+                    <div id="content">
+                        <img src="./assets/images/bar chart.png" alt="" class="charts" id="pie-chart">
+                    </div>
                 </div>
-            </div>
-            <div id="chart-3">
-                <div id="content">
-                    <img src="./assets/images/pie-chart.png" alt="" class="charts" id="pie-chart">
+                <div id="chart-3">
+                    <div id="content">
+                        <h3 id="chart-3-title">Admin Dashboard</h3>
+                        <p>Deadline: </p>
+                        <ul id="third-chart-list">
+                            <li id="list-item-1">Add charts</li>
+                            <li id="list-item-2">Do something else</li>
+                            <li id="list-item-3">Do more of that other thing</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div id="chart-4">
-                <div id="content">
-                    <img src="./assets/images/pie-chart.png" alt="" class="charts" id="pie-chart">
+                <div id="chart-4">
+                    <div id="content">
+                        <h3 id="chart-4-title">Studying</h3>
+                        <p>Quota</p>
+                        <ul id="third-chart-list">
+                            <li id="list-item-1">Study .5 hour daily</li>
+                            <li id="list-item-2">Complete assignment</li>
+                            <li id="list-item-3">Review</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             
@@ -87,19 +96,26 @@
                 <div id="lower-grid-cell-14"></div>
                 <div id="lower-grid-cell-15">Saturday</div>
                 <div id="lower-grid-cell-16"></div>
-                <div id="lower-grid-cell-17">To Do:</div>
+                <div id="lower-grid-cell-17">Weekly To Do:</div>
                 <div id="lower-grid-cell-18">
-                    <p>List title</p>
+                    <!-- <p>Weekly</p> -->
                     <ul>
-                        <li>Something</li>
-                        <li>Something</li>
-                        <li>Something</li>
-                        <li>Something</li>
-                        <li>Something</li>
+                        <li>Finish Admin Dash</li>
+                        <li>Solve 5 LeetCode Problems</li>
+                        <li>Brush up on Bash</li>
+                        <li>Read supplementary material</li>
+                        <li>One lecture</li>
                     </ul>
                 </div>
-                <div id="lower-grid-cell-19"></div>
-                <div id="lower-grid-cell-20"></div>
+                <div id="lower-grid-cell-19">Daily To Do:</div>
+                <div id="lower-grid-cell-20">
+                    <ul>
+                        <li>Add line graph</li>
+                        <li>Adjust color palette for hour blocks</li>
+                        <li>Read for 30m</li>
+                        <li>Work</li>
+                    </ul>
+                </div>
                 <div id="lower-grid-cell-21"></div>
                 <div id="lower-grid-cell-2-1">6AM</div>
                 <div id="lower-grid-cell-2-2">12PM</div>
@@ -131,15 +147,15 @@
                 <div id="hour-block-24" class="hour-block"></div>
                 
                 <!-- EVENTS -->
-                <div id="lower-grid-cell-2-4">Admin Dashboard</div>
-                <div id="lower-grid-cell-2-5">Leet Code</div>
-                <div id="lower-grid-cell-2-6">LUNCH</div>
-                <div id="lower-grid-cell-2-7">Some</div>
-                <div id="lower-grid-cell-2-8">Day Off</div>
-                <div id="lower-grid-cell-2-9"></div>
-                <div id="lower-grid-cell-2-10"></div>
-                <div id="lower-grid-cell-2-11"></div>
-                <div id="lower-grid-cell-2-12"></div>
+                <div id="lower-grid-cell-2-4" class="schedule-entries">Admin Dashboard</div>
+                <div id="lower-grid-cell-2-5" class="schedule-entries">Leet Code</div>
+                <div id="lower-grid-cell-2-6" class="schedule-entries">LUNCH</div>
+                <div id="lower-grid-cell-2-7" class="schedule-entries">Some</div>
+                <div id="lower-grid-cell-2-8" class="schedule-entries">Day Off</div>
+                <div id="lower-grid-cell-2-9" class="schedule-entries">Leet Code</div>
+                <div id="lower-grid-cell-2-10" class="schedule-entries">Admin Dashboard</div>
+                <div id="lower-grid-cell-2-11" class="schedule-entries">Lecture</div>
+                <div id="lower-grid-cell-2-12" class="schedule-entries">Study time</div>
 
                 <!-- RED LINE -->
                 <div id="hour-block-8" class="hour-block"></div>
