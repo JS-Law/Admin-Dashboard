@@ -235,8 +235,8 @@ body{
             text-align: center;
             font-size: .8rem;
             color: $black-pearl;
-            background-color: $white;
             border-radius: .3rem;
+            background-color: $white;
             margin-inline-start: 1px;
             margin-inline-end: 3px;
             margin-block-end: 3px;
@@ -357,7 +357,7 @@ body{
         }
         .schedule-entries{
             font-weight: 800;
-            transition: ease-in .03s;
+            transition: ease-in .07s;
         }
         .schedule-entries:hover{
             background-color: rgb(231, 228, 228) !important;

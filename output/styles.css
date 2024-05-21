@@ -200,8 +200,8 @@ body {
   text-align: center;
   font-size: 0.8rem;
   color: #040F20;
-  background-color: #ffffff;
   border-radius: 0.3rem;
+  background-color: #ffffff;
   margin-inline-start: 1px;
   margin-inline-end: 3px;
   margin-block-end: 3px;
@@ -315,7 +315,7 @@ body {
 }
 #main-grid #lower-workspace-grid .schedule-entries {
   font-weight: 800;
-  transition: ease-in 0.03s;
+  transition: ease-in 0.07s;
 }
 #main-grid #lower-workspace-grid .schedule-entries:hover {
   background-color: rgb(231, 228, 228) !important;
